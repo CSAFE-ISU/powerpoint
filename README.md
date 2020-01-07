@@ -1,2 +1,2 @@
 # powerpoint
-How to avoid opening PoerPoint to make csafe themed power point slides from Rmarkdown
+How to avoid opening PowerPoint to make csafe themed power point slides from Rmarkdown

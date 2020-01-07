@@ -1,0 +1,53 @@
+---
+title: "What did you do this year?"
+author: "Heike Hofmann"
+date: "Jan 6 2020"
+resource_files:
+- csafe-template.pptx
+subtitle: How to get Powerpoint slides without opening PP
+output:
+  powerpoint_presentation:
+    reference_doc: csafe-template.pptx
+    slide_level: 2
+---
+
+# A section header
+
+## New slide
+
+With a double ## we create a new slide 
+
+## Recommendation
+
+By default, images render on their own slide. 
+
+If you want to put image and text on the same slide try these options:
+
+* Use a caption
+* Use columns
+
+## R for Data Science
+
+![Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge. The goal of "R for Data Science" is to help you learn the most important tools in R that will allow you to do data science.](r4ds.png)
+
+## R for Data Science
+
+:::::::::::::: {.columns}
+::: {.column}
+Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge. The goal of "R for Data Science" is to help you learn the most important tools in R that will allow you to do data science.
+:::
+::: {.column}
+![](r4ds.png)
+:::
+::::::::::::::
+
+
+## And a formula
+
+We use LateX :)
+
+For some values $x_1, ..., x_n$ we calculate the average as:
+
+\[
+\bar{x} = \frac{1}{n} \sum_{i=1}^n x_i
+\]
